@@ -1,0 +1,37 @@
+.footer_data {
+  padding: 35px;
+}
+.footer_data ul {
+  list-style: none;
+}
+
+.footer_data ul li {
+  font-weight: 400;
+}
+
+.footer_main {
+  color: #fff;
+  padding: 45px 0;
+}
+
+.bg-footer {
+  background-color: #172337;
+}
+
+.footer_list {
+  list-style: none;
+  display: flex;
+  align-items: space-evenly;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: right;
+}
+
+.footer_buttom {
+  padding-top: 25px;
+  padding-right: 30px;
+}
+.footer_list p {
+  margin-right: 15px;
+}

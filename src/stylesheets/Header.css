@@ -1,0 +1,44 @@
+.bg-header {
+  background: #131921;
+}
+
+.navbar-toggler{
+  background: #fff;
+  float: right !important;
+}
+
+.nav-right ul {
+  list-style: none;
+}
+
+.nav-right ul li {
+  color: #fff;
+  display: inline-block;
+}
+
+.bottom-nav {
+  list-style: none;
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+.bottom-nav li {
+  color: #fff;
+  margin-right: 10px !important;
+  display:block;
+}
+
+@media (max-width: 700px) {
+  .logo{
+    text-align: center;
+    margin: 8px 0;
+  }
+  .bottom-nav li{
+    margin: 8px 0 !important;
+  }
+  .bottom-nav li:hover{
+    background-color: #FD5A69;
+    padding: 8px !important;
+    cursor: pointer;
+  }
+
+}

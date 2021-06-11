@@ -1,0 +1,29 @@
+.wholesale-btn-1 {
+  background: #000;
+  color: #fff;
+  border: 0;
+  font-size: 0.75rem;
+  padding: 5px;
+  font-weight: 500;
+}
+.wholesale-btn-2 {
+  background: red;
+  color: #fff;
+  border: 0;
+  font-size: 0.75rem;
+  padding: .32rem;
+  font-weight: 500;
+}
+
+.wholesale-card-list{
+  list-style: none;
+}
+.wholesale-card-list li{
+  display: inline-block;
+  margin-left:0.80rem;
+  font-size: 0.80rem;
+  font-weight: 500;
+}
+.card-footer{
+  background: #E6F3FC;
+}
