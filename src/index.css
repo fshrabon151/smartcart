@@ -21,3 +21,7 @@ body{
     font-size: 70%;
   }
 }
+
+.card:hover{
+  cursor: pointer;
+}

@@ -3,19 +3,15 @@ import "../../stylesheets/Header.css";
 import { FaSignInAlt } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa";
 import { FaAppStoreIos } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
+
 import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
+
 } from "reactstrap";
 
 const Header1 = () => {
@@ -29,8 +25,9 @@ const Header1 = () => {
           <h1 className="text-white logo">SmartCart</h1>
         </div>
         <div className="col-md-7 align-self-center nav-center search">
-          <form action="">
-            <input type="text" className="form-control" />
+          <form action="" className="form-data">
+            <input type="text" className="form-control search-data" placeholder="What are you looking for..." />
+            <FaSearch className="search-icon"/>
           </form>
         </div>
         <div className="col-md-3 align-self-center nav-right pr-4">

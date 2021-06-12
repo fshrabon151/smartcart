@@ -9,7 +9,7 @@ const HeroProduct = () => {
           <div className="row">
             <div className="col-6">
               <img
-                src="https://www.bengalcement.com.bd/wp-content/uploads/2019/05/Standard.png"
+                src="https://www.pngkit.com/png/full/296-2965670_order-now-cement.png"
                 alt=""
                 className="img-fluid w-100"  height="140"
               />
